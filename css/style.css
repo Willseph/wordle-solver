@@ -1,0 +1,83 @@
+html, body {
+	background: #000;
+	color: white;
+	font-family: "Helvetica", sans-serif;
+	padding: 0;
+	margin: 10px;
+}
+
+.fl{float:left;}
+.fr{float:right;}
+.cb{clear:both;}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+div {
+	margin-bottom: 8px;
+}
+
+input {
+	height: 32px;
+	font-size: 30px;
+	line-height: 32px;
+	vertical-align: middle;
+	text-transform: uppercase;
+	border: 0px;
+	border-radius: 2px;
+	color: white;
+	font-weight: 900;
+	width: 150px;
+	padding: 2px;
+}
+
+#eliminated {
+	background: #444;
+}
+
+#known {
+	background: #db0;
+	margin-bottom: 8px;
+}
+
+.positional input {
+	height: 48px;
+	width: 48px;
+	text-align: center;
+	font-size: 46px;
+	line-height: 48px;
+	vertical-align: middle;
+	background-color: #1c1;
+}
+
+#possibilities {
+	cursor: default;
+	color: white;
+	font-weight: 900;
+	font-size: 46px;
+	list-style: none;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+#possibilities .item {
+	display: inline-block;
+	background: #444;
+	min-width: 190px;
+	margin-right: 16px;
+	margin-bottom: 12px;
+	padding: 4px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+#possibilities .too-many {
+	font-size: 36px;
+}
